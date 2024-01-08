@@ -9,6 +9,8 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Test {
 
@@ -28,6 +30,30 @@ public class Test {
             UserMapper mapper = session.getMapper(UserMapper.class);
             User user = mapper.selectUser(1L);
             System.out.println(user);
+        }
+
+        // 参数查询
+        /**
+         * （1）散装参数：需要使用@Param
+         * （2）实体类参数：只需要SQL中的参数名和实体类属性名对应上
+         * （3）map集合：map的键与参数名对应上
+         */
+        try (SqlSession session = sqlSessionFactory.openSession()) {
+            UserMapper mapper = session.getMapper(UserMapper.class);
+
+            Map map = new HashMap();
+            map.put("id", 2L);
+            map.put("name", "ls");
+            map.put("phone", "777");
+
+
+            User user1 = mapper.selectUser1(1L, "zs", "888");
+            User user2 = mapper.selectUser2(new User(1L, "zs", "888"));
+            User user3 = mapper.selectUser3(map);
+            System.out.println("======参数=======");
+            System.out.println(user1);
+            System.out.println(user2);
+            System.out.println(user3);
         }
     }
 }

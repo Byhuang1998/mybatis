@@ -6,4 +6,16 @@
     <select id="selectUser" resultType="com.byhuang.entity.User">
         select * from user where id = #{id}
     </select>
+
+    <select id="selectUser1" resultType="com.byhuang.entity.User">
+        select * from user where id = #{id} and name = #{name} and phone = #{phone};
+    </select>
+
+    <select id="selectUser2" resultType="com.byhuang.entity.User">
+        select * from user where id = #{id} and name = #{name} and phone = #{phone};
+    </select>
+
+    <select id="selectUser3" resultType="com.byhuang.entity.User">
+        select * from user where id = #{id} and name = #{name} and phone = #{phone};
+    </select>
 </mapper>
