@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaed8237-e962-4b05-96d2-1e587a8c4229" name="Changes" comment="use mybatis">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/byhuang/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/byhuang/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/byhuang/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/byhuang/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/byhuang/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/byhuang/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/byhuang/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/byhuang/mapper/UserMapper.xml" afterDir="false" />
-    </list>
+    <list default="true" id="eaed8237-e962-4b05-96d2-1e587a8c4229" name="Changes" comment="mybatis param" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1704639078387</updated>
       <workItem from="1704639079433" duration="5558000" />
-      <workItem from="1704728459320" duration="2804000" />
+      <workItem from="1704728459320" duration="3642000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <option name="closed" value="true" />
@@ -137,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704727212552</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="mybatis param">
+      <option name="closed" value="true" />
+      <created>1704731307775</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704731307775</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +147,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init commit" />
     <MESSAGE value="use mybatis" />
-    <option name="LAST_COMMIT_MESSAGE" value="use mybatis" />
+    <MESSAGE value="mybatis param" />
+    <option name="LAST_COMMIT_MESSAGE" value="mybatis param" />
   </component>
 </project>
